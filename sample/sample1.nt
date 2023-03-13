@@ -1,0 +1,136 @@
+x = 10,y = 20,z = 30.588
+j = x + y + z
+
+
+
+
+// 定义方法
+fn xx(a1, b1){
+    dim result = a1 + b1
+    fn p2(c1, c2){
+        dim result = c1 + c2
+    }
+    return p2(result, 10)
+}
+
+add(x,y,add(1+3 ,2))
+
+print(xx(1.831231, 2),123,xx,floor,ajkdfjasl)
+print(typeof(123))
+
+a=2,b=2,c=3;
+a=nil
+a=2
+print(a)
+
+print("* hello world!")
+
+
+fn test(){
+    print(123);
+    return nil
+}
+
+
+
+
+if (0&&1) {
+    print(100)
+} 
+
+else 
+
+if test()?0:1 {
+    print(200)
+    print(test())
+}
+
+
+print(1)
+
+
+fn test(){
+    print(123);
+
+    dim fn p2(){
+        print("p2")
+    }
+
+    return nil
+}
+
+
+if (0||0&&1)<0 {
+    print(1000)
+} 
+
+else
+
+if !test()?0:1 {
+    print(200)
+    print(test())
+} 
+else 
+{
+
+}
+
+
+if nil {}
+else { print("else") }
+
+print(1 == 1)
+
+eval("print(p2) p3 && p3()")
+
+x = 10,y = 20, z = 30.588
+j = x + y + z;
+
+a = 1 b = 3 +  (50.5);
+
+x = fn (a){return a};fn a(){}
+
+print(x(j))
+
+fn test(a){
+    return gHp;
+}
+
+fn test2(){
+    dim gHp = 100
+}
+
+test2();
+print(test())
+
+
+// 全局变量测试
+fn test1(){
+    return glabolV;
+}
+
+fn test1_2(){
+    fn test1(){
+        fn test1(){
+            fn test1(){
+                dim glabolV = -100;
+            }
+            test1();
+        }
+        test1();
+    }
+    test1();
+}
+
+print(test1() , glabolV);
+test1_2();
+print(test1() , glabolV);
+
+// 链式调用测试
+fn teset2(){
+    fn close(){
+        return 10;
+    }
+    return close
+}
+print(test2())

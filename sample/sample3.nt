@@ -1,0 +1,51 @@
+x = 10,y = 20, z = 30.588
+j = x + y + z;
+
+a = 1 b = 3 +  (50.5);
+
+x = fn (a){return a};fn a(){}
+
+print(x(j))
+
+fn test(a){
+    return gHp;
+}
+
+fn test2(){
+    dim gHp = 100
+}
+
+test2();
+print(test())
+
+
+// 全局变量测试
+fn test1(){
+    return glabolV;
+}
+
+fn test1_2(){
+    fn test1(){
+        fn test1(){
+            fn test1(){
+                dim glabolV = -100;
+            }
+            test1();
+        }
+        test1();
+    }
+    test1();
+}
+
+print(test1() , glabolV);
+test1_2();
+print(test1() , glabolV);
+
+// 链式调用测试
+fn teset2(){
+    fn close(){
+        return 10;
+    }
+    return close
+}
+print(test2())
